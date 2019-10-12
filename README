@@ -1,0 +1,13 @@
+SHORT DESCRIPTION
+The program creates from scratch a simulation of a memory allocator. The program has various possible comands, such as:
+allocates an exact size of memory, clears an exact memory zone from the configuration of the allocator, prints the current state of the allocator, etc. 
+
+IMPORTANT FUNCTIONS
+Intitialize(int n) -> uses calloc to create a memory map with a dimension of n unsigned char values.
+Finalize() -> uses free to clear all the used memory and then exits the program.
+Dump() -> prints a matrix which represents the memory map.
+Completeaza(int i, int numar) -> this function inserts the numar value in the memory starting at position i.
+Free(int index) -> clears a memory zone from the map, starting at index position.
+Alloc(int size) -> this function creates a manually allocation a memory zone of length equal to size value.
+Fill(int index, int size, int value) -> this function fills the memory allocated zone with values.
+Read() -> it reads the input while the input exists and calls all the important functions declared above, as necessary.

@@ -1,8 +1,8 @@
-SHORT DESCRIPTION
+#  SHORT DESCRIPTION
 The program creates from scratch a simulation of a memory allocator. The program has various possible comands, such as:
 allocates an exact size of memory, clears an exact memory zone from the configuration of the allocator, prints the current state of the allocator, etc. 
 
-IMPORTANT FUNCTIONS
+#  IMPORTANT FUNCTIONS
 Intitialize(int n) -> uses calloc to create a memory map with a dimension of n unsigned char values.
 Finalize() -> uses free to clear all the used memory and then exits the program.
 Dump() -> prints a matrix which represents the memory map.
